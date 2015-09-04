@@ -247,7 +247,7 @@ ifndef MK_BUILDTYPE
     ifdef MK_EXPERIMENTAL
         MK_BUILDTYPE := EXPERIMENTAL
     else
-        MK_BUILDTYPE := UNOFFICIAL
+        MK_BUILDTYPE := NIGHTLY
     endif
     MK_SECURITY_VERIFY := false
 endif
